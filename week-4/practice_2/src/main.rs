@@ -1,4 +1,4 @@
-// Rust program to calculate the area of a triangle
+// c triangle
 
 use std::io;
 
