@@ -1,0 +1,15 @@
+fn main() {  
+
+    let _b: (i32,bool,f64) = (110,true,10.9);
+    println!("b");
+
+
+}
+
+// pass the tuple as a perimeter
+
+fn print(x:(i32,bool,f64)) {
+
+    println!("Inside print method");
+    println!("{:?}",x);
+}
