@@ -5,7 +5,7 @@ use std::io;
 fn main() {
 
 
-    println!("Enter lower bound");
+    c
     let mut input1 = String::new();
     io::stdin().read_line(&mut input1).expect("Failed to read input");
     let lower_bound:i32 = input1.trim().parse().expect("failed to imput");

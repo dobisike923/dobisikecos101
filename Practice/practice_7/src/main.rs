@@ -5,7 +5,7 @@ fn main() {
 
     //initialization of tuples without data types
     let no_datatypes_tuple = ("Rust", "fun", 100); 
-    println!("Tuple content = {:?}", no_datatypes_tuple);
+    println!("Tuple content = {:?   }", no_datatypes_tuple);
 
     // accessing tuple element at index 0
     println!("Value at index 0 = {}", datatypes_tuple.0);
